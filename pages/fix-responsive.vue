@@ -7,7 +7,7 @@
 
     <article class="main-story">
 
-      <img src="https://f.cl.ly/items/2e3c2a1Z0D1H3u0W2K12/shera.jpg" alt="Sha Ra Rocking"/>
+      <img src="/she-ra.jpg" alt="Sha Ra Rocking"/>
 
       <div class="story-intro">
         <h1>Most Important Story</h1>
@@ -19,7 +19,7 @@
     <section class="sub-stories">
 
       <article class="sub-story">
-        <img src="http://placekitten.com/250/350"/>
+        <img src="/kitten.jpg"/>
         <div class="story-intro">
           <h2>Less Important Story</h2>
           <p>This story has less visual weight.</p>
@@ -27,7 +27,7 @@
       </article>
 
       <article class="sub-story">
-        <img src="http://placecage.com/250/350"/>
+        <img src="/nick-cage.jpg"/>
         <div class="story-intro">
           <h2>Less Important Story</h2>
           <p>This story has less visual weight.</p>
@@ -35,7 +35,7 @@
       </article>
 
       <article class="sub-story last">
-        <img src="http://placebear.com/250/350"/>
+        <img src="/bears.jpg"/>
         <div class="story-intro">
           <h2>Less Important Story</h2>
           <p>This story has less visual weight.</p>
