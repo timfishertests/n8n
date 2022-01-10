@@ -6,7 +6,7 @@
 
 <style>
 html {
-  font-family:
+    font-family:
     'Source Sans Pro',
     -apple-system,
     BlinkMacSystemFont,
@@ -21,13 +21,13 @@ html {
   -webkit-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
   margin: 0;
+  box-sizing: border-box;
 }
 
 .button--green {
