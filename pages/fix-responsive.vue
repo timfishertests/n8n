@@ -48,28 +48,32 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
+import Vue from "vue";
 
-export default Vue.extend({})
+export default Vue.extend({});
 </script>
 
 <style scoped>
-* {
-  box-sizing: border-box;
-}
-
 .page-wrap {
-  width: 800px;
+  width: 100%;
   margin: 20px auto;
 }
 
 .main-story {
-  position: relative;
-  margin: 0 0 25px 0;
+  padding-top: 25px;
+}
+
+.main-story img {
+  aspect-ratio: 16 / 9;
+  min-height: 400px;
 }
 
 img {
-  display: block;
+  aspect-ratio: 1;
+}
+
+img {
+  width: 100%;
 }
 
 a {
@@ -77,20 +81,29 @@ a {
 }
 
 .story-intro {
-  position: absolute;
-  bottom: 0;
-  left: 0;
+  position: relative;
+  bottom: 80px;
   width: 100%;
   background: rgba(0, 0, 0, 0.75);
   padding: 20px;
   color: white;
 }
 
-h1 {
-   font-size: 4em;
+.main-story .story-intro {
+  bottom: 120px;
 }
-h1, h2 {
+
+h1 {
+  font-size: 4em;
+  text-align: center;
+}
+h1,
+h2 {
   margin: 0 0 10px 0;
+}
+
+p {
+  text-align: center;
 }
 
 .story-intro h1 {
@@ -101,19 +114,22 @@ h1, h2 {
 }
 
 .sub-stories {
-  overflow: hidden;
-  margin: 0 0 25px 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -100px;
+}
+
+@media only screen and (min-device-width: 768px) {
+  .sub-stories {
+    flex-wrap: nowrap;
+  }
+  .sub-story {
+    padding: 10px;
+  }
 }
 
 .sub-story {
-  float: left;
-  width: 250px;
-  margin-right: 25px;
-  position: relative;
+  flex-grow: 1;
   font-size: 80%;
-}
-
-.last {
-  margin-right: 0;
 }
 </style>
