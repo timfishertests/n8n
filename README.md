@@ -45,14 +45,18 @@ I used decorator functions for accessing the store.
 
 Would normally have an integration test to test adding / removing is working via RTL but ran out of time.
 
+Added unit tests for the store functionality.
+
+```yarn test```
+
 # Build Setup
 
 ```bash
 # install dependencies
-$ npm install
+$ yarn
 
 # serve with hot reload at localhost:3000
-$ npm run dev
+$ yarn dev
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
