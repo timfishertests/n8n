@@ -43,6 +43,8 @@ Notes -
 
 I used decorator functions for accessing the store.
 
+Would normally have an integration test to test adding / removing is working via RTL but ran out of time.
+
 # Build Setup
 
 ```bash
